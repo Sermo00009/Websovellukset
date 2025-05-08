@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  body {
+    background-image: url(../kuvat/razor-wallpaper.jpg); /* Tarkista että polku on oikein */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+
+
+/*tekstin väri*/
+
+p {
+    color: red;
+ 
+}
+
+/* Navbarin teksti valkoiseksi */
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand,
+.custom-navbar .dropdown-toggle {
+  color: white !important;
+}
+
+/* Dropdown-valikon valinnat valkoiseksi */
+.custom-navbar .dropdown-menu .dropdown-item {
+    color: white !important;}
+
+    h2{
+        color:red
+    }
+
+    .img-fluid {
+        position: absolute;      /* sijoittaa kuvan suhteessa selainikkunaan */
+        top: 750px;               /* etäisyys yläreunasta */
+        left: 177px;              /* etäisyys vasemmasta reunasta */
+        width: 200px;             /* pienentää kuvan leveyttä */
+        height: auto;            /* säilyttää kuvasuhteen */
+        z-index: 1000;           /* varmistaa että se näkyy muiden elementtien päällä */
+      }
+      .navbar-toggler {
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 1px solid white;
+        padding: 6px;
+        border-radius: 4px;
+      }
+      
+      .navbar-toggler-icon {
+        filter: invert(1);
+      }
+      
+      .img-fluid {
+        max-width: 80px; /* tai 80px jos haluat pienemmän */
+        height: auto;     /* tärkeää: säilyttää oikean mittasuhteen */
+      }
+      .background-image {
+        max-width:fit-content;
+        height:fit-content;
+      }
+      .text-center{
+        color: white;
+      }
+
+      .carousel-inner img {
+        object-fit: cover;
+        height: 400px; /* voit säätää korkeutta haluamallasi tavalla */
+        border-radius: 12px;
+      }
+      
+      /* Mobiilille: tee korkeudesta hieman matalampi */
+      @media (max-width: 576px) {
+        .carousel-inner img {
+          height: 250px;
+        }
+      }
+      

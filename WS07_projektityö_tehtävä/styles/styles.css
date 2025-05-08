@@ -1,0 +1,7 @@
+.hero {
+    height: 100vh; /* Take full height of screen */
+    background-image: url();
+    background-size: cover;        /* Cover entire area */
+    background-position: center;   /* Center the image */
+    background-repeat: no-repeat;  /* Don't repeat */
+  }

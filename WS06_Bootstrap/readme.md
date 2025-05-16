@@ -1,0 +1,1 @@
+Tässä teen kaikki WS06_bootstrap tehtävät.

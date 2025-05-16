@@ -1,0 +1,1 @@
+Tämän projektitehtävän tarkoituksena on luoda omanlainen verkkosivusto DOTA 2 videopelistä.

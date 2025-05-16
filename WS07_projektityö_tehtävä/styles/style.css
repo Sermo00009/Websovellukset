@@ -6,40 +6,16 @@
   background-repeat: no-repeat;
 }
 
-.hero {
-  height: 100vh;
-  background-color: red; /* Debug background */
-  background-image: url('../images/razor-wallpaper.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 
 .features .card {
-  transition: transform 0.3s ease;
+  transition: transform 1.5s ease;
 }
 .features .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-20px);
 }
 
-.heroes .card-img-top {
-  transition: transform 0.3s ease;
-}
-.heroes .card:hover .card-img-top {
-  transform: scale(1.05); /* Zoom in a bit on hover */
-}
-
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
-  padding: 1rem;
-  border-radius: 8px;
-}
-
-.about-section {
-  background-color: #f8f9fa;
-}
-
-.about-section h2 {
+.dota-info h2 {
   font-weight: bold;
 }
 
@@ -51,4 +27,8 @@
   font-weight: bold;
 }
 
-
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  padding:0px;
+}

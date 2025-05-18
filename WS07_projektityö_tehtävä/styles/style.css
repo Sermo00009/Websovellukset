@@ -11,6 +11,7 @@
 .features .card {
   transition: transform 1.5s ease;
 }
+
 .features .card:hover {
   transform: translateY(-20px);
 }
@@ -30,6 +31,5 @@
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 0px;
-  padding:0px;
+  padding: 0px;
 }
-
